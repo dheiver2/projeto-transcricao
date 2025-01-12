@@ -1,4 +1,12 @@
 // next.config.js
-/** @type {import('next').NextConfig} */
 const nextConfig = {}
 module.exports = nextConfig
+
+// jsconfig.json
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
