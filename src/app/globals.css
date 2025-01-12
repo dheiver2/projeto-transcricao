@@ -1,19 +1,4 @@
 // src/app/globals.css
-/* Arquivo de estilos globais */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Estilos base opcionais */
-@layer base {
-  body {
-    @apply antialiased;
-  }
-}
-
-/* Você pode adicionar estilos customizados aqui */
-@layer components {
-  .container {
-    @apply px-4 mx-auto max-w-7xl;
-  }
-}
